@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icons/gentlemen logo main.png">
+
+    <title>Contact Us</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+  <body>
+    <div class="body">
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img class="navLogo" src="icons/gentlemen logo.png" alt="Gentlemen Logo"></a>
+        <button class="navbar-toggler navbarIcon" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><img class="navIcon" src="icons/system-outline-12-arrow-down.gif" alt=""></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link getAppNav" href="getAppointment.html" style="color: black; text-align: center;">Get Appointment</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end navbar-->
+
+       <!-- background Section -->
+      <section class="backgroundContactUs">
+        <h2 class="text-center ContactUsTitle ">Contact Us</h2>
+      </section>
+      <!--contact number-->
+      <div class="row mt-5">
+          <div class="col-sm-12 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <img  class="phoneIcon" src="icons/phone icon.png">
+                    <a href="#"><h5 class="card-title number" >+961-03 123 456</h5></a>
+                  <h5 class="card-title">Call us</h5>
+                  <p class="card-text">Tuesady - Sunday | 9am -8 pm</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <a href="gmail.com"><img class="mailIcon" src="icons/mail icon.png"></a>
+                    <h5 class="card-title number" >info@Gentlemen.shop</h5>
+                  <h5 class="card-title">Mail us</h5>
+                  <p class="card-text">All week days | We reply </p>
+                </div>
+              </div>
+          </div>
+               </div>
+     <!-- Contact Section -->
+    <section class="contact">
+      <form action="https://formsubmit.co/karimkaraki11@gmail.com" method="POST">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="main-title">Send Us a Message</h2>
+              <p class="text-center">Have a question or want to book an appointment? Contact us today!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mx-auto">
+              <form name="contact">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input name="fname" type="text" class="form-control" id="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input name="femail" type="email" class="form-control" id="email" placeholder="Example@mail.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea name="fmessage" class="form-control" id="message" rows="3" placeholder="Write your message here!" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary getApp" onclick="messageResponse();">Submit</button>
+              </form>
+          </div>
+        </div>
+        </div>
+      </form>
+      </section>
+      
+ <!-- Footer Section -->
+ <section id="footer">
+  <div class="container">
+    <div class="row text-center text-xs-center text-sm-left text-md-left">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href="aboutUs.html"><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href="getAppointment.html"><i class="fa fa-angle-double-right"></i>Get Appointment</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+          <li><a href="services.html"><i class="fa fa-angle-double-right"></i>Our Services</a></li>
+          <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Developers</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="https://instagram.com/karimkaraki_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-angle-double-right"></i>Karim Karaki</a></li>
+          <li><a href="https://instagram.com/ali__nahle?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-angle-double-right"></i>Ali Nahle</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <ul class="list-unstyled list-inline social text-center">
+          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook" style="color:#e9c664"></i></a></li>
+          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter" style="color:#e9c664"></i></a></li>
+          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram" style="color:#e9c664"></i></a></li>
+          <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus" style="color:#e9c664"></i></a></li>
+          <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope" style="color:#e9c664"></i></a></li>
+        </ul>
+      </div>
+      </hr>
+    </div>  
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+        <p><u><a href="#">Gentlemen Barbershop</a></u> is an Experienced company of grooming excellence and indulge in our exceptional services tailored to the modern gentleman's discerning taste.</p>
+        <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Semicolon Soluions</a></p>
+      </div>
+      </hr>
+    </div>  
+  </div>
+</section>
+<!-- ./Footer -->
+ </div> 
+     <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

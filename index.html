@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="icons/gentlemen logo main.png">
+
+
+    <title>Barbershop - Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+
+</head>
+  <body onload="Loader()" style="margin:0;">
+    <div id="loader">
+      <img id="logoImage" src="icons/wired-flat-1561-comb.gif" >
+    </div>
+    <div class="body">
+   <!-- Navbar -->
+   <nav id="navbar" class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="navLogo" src="icons/gentlemen logo.png" alt="Gentlemen Logo"></a>
+      <button class="navbar-toggler navbarIcon" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img class="navIcon" src="icons/system-outline-12-arrow-down.gif" alt=""></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link getAppNav" href="getAppointment.html" style="color: black; text-align: center;">Get Appointment</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end navbar-->
+  
+
+    <!-- Intro Section -->
+    <section class="intro">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1 class="text-uppercase">Welcome to Gentlemen</h1>
+            <hr>
+            <p class="lead">Experience the best haircut and grooming services for men at our professional barbershop.</p>
+            <a href="getAppointment.html" class="btn getApp"><span class="but">Get Appointment</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="ourSer">
+      <div class="container">   
+        <div >
+          <div >
+           <a href="services.html"><h2 class=" main-title">Our Services</h2></a>
+          </div>
+        </div>
+        <div class="team" id="team">
+          <div class="container">
+            
+            <div class="box">
+
+              <div class="data">
+                <img src="images/haircut.jpg" alt="" />
+              </div>
+
+              <div class="info">
+                <p>Cuts & Fades</p>
+              </div>
+
+            </div>
+            
+            <div class="box">
+
+              <div class="data">
+                <img src="images/handsome-man-cutting-beard-barber-salon.jpg" alt="" /> 
+              </div>
+
+              <div class="info">
+                <p>Beard and Mustache Trim and Servicing</p>
+              </div>
+
+            </div>
+
+            <div class="box">
+
+              <div class="data">
+                <img src="images/childcut.jpg" alt="" />
+              </div>
+
+              <div class="info">
+                <p>Children Cuts</p>
+              </div>
+
+            </div>
+
+            <div class="box">
+
+              <div class="data">
+                <img src="images/facial.jpg" alt="" />
+              </div>
+
+              <div class="info">
+                <p>Facials</p>
+              </div>
+
+            </div>
+       
+            <div class="box">
+
+              <div class="data">
+                <img src="images/styling.jpg" alt="" />
+              </div>
+
+              <div class="info">
+                <p>Professional Styling</p>
+              </div>
+
+            </div>
+
+            <div class="box">
+
+              <div class="data">
+                <img src="images/Scalp massage.jpg" alt="" />
+              </div>
+
+              <div class="info">
+                <p>Scalp Msassage and Conditioning Treatment</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      
+    </section>
+    <!-- End Services Section -->
+
+
+    <!-- Start Events -->
+    <div class="events" id="events">
+      <div class="dots dots-up"></div>
+      <div class="dots dots-down"></div>
+      <h2 class="main-title">Latest Events</h2>
+      <div class="container">
+        <img src="icons/event.png" alt="" />
+        <div class="info">
+          <div class="time">
+            <div class="unit">
+              <span class="days"></span>
+              <span>Days</span>
+            </div>
+            <div class="unit">
+              <span class="hours"></span>
+              <span>Hours</span>
+            </div>
+            <div class="unit">
+              <span class="minutes"></span>
+              <span>Minutes</span>
+            </div>
+            <div class="unit">
+              <span class="seconds"></span>
+              <span>Seconds</span>
+            </div>
+          </div>
+          <h2 class="title">Tech Masters Event 2022</h2>
+          <p class="description">
+            "Join us for the grand opening of our new branch on<span style="font-weight: bold; color: #e9c664;"> Sep 22, 2023</span>. Experience exceptional grooming services for the modern gentleman. Don't miss out!"
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Events -->
+
+
+  
+    
+    <!-- Footer Section -->
+    <section id="footer">
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Quick links</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+              <li><a href="aboutUs.html"><i class="fa fa-angle-double-right"></i>About</a></li>
+              <li><a href="getAppointment.html"><i class="fa fa-angle-double-right"></i>Get Appointment</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Quick links</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
+              <li><a href="services.html"><i class="fa fa-angle-double-right"></i>Our Services</a></li>
+              <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Developers</h5>
+            <ul class="list-unstyled quick-links">
+              <li><a href="https://instagram.com/karimkaraki_?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-angle-double-right"></i>Karim Karaki</a></li>
+              <li><a href="https://instagram.com/ali__nahle?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa fa-angle-double-right"></i>Ali Nahle</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook" style="color:#e9c664"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter" style="color:#e9c664"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram" style="color:#e9c664"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus" style="color:#e9c664"></i></a></li>
+              <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope" style="color:#e9c664"></i></a></li>
+            </ul>
+          </div>
+          </hr>
+        </div>  
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <p><u><a href="#">Gentlemen Barbershop</a></u> is an Experienced company of grooming excellence and indulge in our exceptional services tailored to the modern gentleman's discerning taste.</p>
+            <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Semicolon Soluions</a></p>
+          </div>
+          </hr>
+        </div>  
+      </div>
+    </section>
+    <!-- ./Footer -->
+
+    </div>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+  </body>
+</html>
